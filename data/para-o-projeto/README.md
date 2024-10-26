@@ -1,0 +1,1 @@
+Para este projeto, até o momento (26/10/2024) apenas usamos a team_v_team.csv
