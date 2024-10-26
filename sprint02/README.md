@@ -10,6 +10,10 @@ Por conta disso nos dividimos em **3 funções**:
 
 - **Inserção do Time B**: Nossos testes preliminares consideraram somente as features do time A nas categorias. A proposta agora seria analisar se algum comportamento/feature do time B pode nos auxiliar
 
-- **Adiantamento das Próximas Etapas e Testagem de outros modelos de Clustering**: Fomos adiantando os próximos passos do códigos com os resultados ruins mesmo, para quando tivermos a base melhorada apenas "rodarmos o código". Além disso já fomos testando outros modelos como o DBSCAN, que já tinhamos percebido anteriormente que poderia ter um resultado melhor por conta da distribuição dos registros. **OBS: RECOMENDAMOS ANALISAR PRIMEIRO O `teste_preliminar_kmeans.ipynb` já que foi o primeiro teste feito, os outros apenas sendo adaptações do mesmo**
+**OBS 1: o arquivo `base_feature_engineering.ipynb` foi o arquivo preliminar que foi utilizado como base para realização do Feature Engineering e da Inserção do Time B, sua versão completa está no arquivo `testes_modelos\teste_preliminar_kmeans.ipynb`**
+
+- **Adiantamento das Próximas Etapas e Testagem de outros modelos de Clustering**: Fomos adiantando os próximos passos do códigos com os resultados ruins mesmo, para quando tivermos a base melhorada apenas "rodarmos o código". Além disso já fomos testando outros modelos como o DBSCAN, que já tinhamos percebido anteriormente que poderia ter um resultado melhor por conta da distribuição dos registros. 
+
+**OBS 2: RECOMENDAMOS ANALISAR PRIMEIRO O `teste_preliminar_kmeans.ipynb` já que foi o primeiro teste feito, os outros apenas sendo adaptações do mesmo**
 
 EM ANDAMENTO: junção dos resultados e avaliação do "modelo preliminar conjunto"
