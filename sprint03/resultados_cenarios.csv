@@ -1,0 +1,734 @@
+Scenario ID,Normalization,Remove Outliers,DataFrame Type,Model,Params,Silhouette Score,Davies-Bouldin Index
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 3}",0.9815406832259601,1.3068832110043973
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 4}",0.9696106323746629,1.316675044525869
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 5}",0.9591502411992221,1.3246996438613734
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 6}",0.9482568632755459,1.3341875353793942
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 7}",0.9318431460384081,1.2346760287940883
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 8}",0.9184122845764944,1.2512016030341857
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.01), 'min_samples': 9}",0.9077032767689615,1.2631465507922102
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 3}",-0.08928383119401868,1.6586640538234494
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 4}",-0.09275213285199245,1.7068773093004401
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 5}",-0.09424509079255229,1.6808845109717518
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 6}",-0.09777170530973434,1.7284895647285137
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 7}",-0.10064810095221466,1.7505276315498124
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 8}",-0.10406103059252773,1.7859784122646785
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.06210526315789474), 'min_samples': 9}",-0.10701830946930305,1.7951564925006611
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 3}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 4}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 5}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 6}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 7}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 8}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.11421052631578947), 'min_samples': 9}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 3}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 4}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 5}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 6}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 7}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 8}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.16631578947368422), 'min_samples': 9}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 3}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 4}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 5}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 6}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 7}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 8}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.21842105263157896), 'min_samples': 9}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 3}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 4}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 5}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 6}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 7}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 8}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.2705263157894737), 'min_samples': 9}",,
+0,True,True,df_bloq,dbscan,"{'eps': np.float64(0.32263157894736844), 'min_samples': 3}",,
+1,True,True,df_bloq,kmeans,"{'n_clusters': 2, 'init': 'k-means++', 'max_iter': 100}",0.3181869075420063,1.2090982663526826
+1,True,True,df_bloq,kmeans,"{'n_clusters': 2, 'init': 'k-means++', 'max_iter': 300}",0.3181869075420063,1.2090982663526826
+1,True,True,df_bloq,kmeans,"{'n_clusters': 2, 'init': 'k-means++', 'max_iter': 500}",0.3181869075420063,1.2090982663526826
+1,True,True,df_bloq,kmeans,"{'n_clusters': 2, 'init': 'random', 'max_iter': 100}",0.3201190043224681,1.1997849014321418
+1,True,True,df_bloq,kmeans,"{'n_clusters': 2, 'init': 'random', 'max_iter': 300}",0.3201190043224681,1.1997849014321418
+1,True,True,df_bloq,kmeans,"{'n_clusters': 2, 'init': 'random', 'max_iter': 500}",0.3201190043224681,1.1997849014321418
+1,True,True,df_bloq,kmeans,"{'n_clusters': 3, 'init': 'k-means++', 'max_iter': 100}",0.3277853419708413,1.0315106686129358
+1,True,True,df_bloq,kmeans,"{'n_clusters': 3, 'init': 'k-means++', 'max_iter': 300}",0.3277853419708413,1.0315106686129358
+1,True,True,df_bloq,kmeans,"{'n_clusters': 3, 'init': 'k-means++', 'max_iter': 500}",0.3277853419708413,1.0315106686129358
+1,True,True,df_bloq,kmeans,"{'n_clusters': 3, 'init': 'random', 'max_iter': 100}",0.3317588212842796,1.0273944825206354
+1,True,True,df_bloq,kmeans,"{'n_clusters': 3, 'init': 'random', 'max_iter': 300}",0.3317588212842796,1.0273944825206354
+1,True,True,df_bloq,kmeans,"{'n_clusters': 3, 'init': 'random', 'max_iter': 500}",0.3317588212842796,1.0273944825206354
+1,True,True,df_bloq,kmeans,"{'n_clusters': 4, 'init': 'k-means++', 'max_iter': 100}",0.28048671233857064,1.1510903207091494
+1,True,True,df_bloq,kmeans,"{'n_clusters': 4, 'init': 'k-means++', 'max_iter': 300}",0.28048671233857064,1.1510903207091494
+1,True,True,df_bloq,kmeans,"{'n_clusters': 4, 'init': 'k-means++', 'max_iter': 500}",0.28048671233857064,1.1510903207091494
+1,True,True,df_bloq,kmeans,"{'n_clusters': 4, 'init': 'random', 'max_iter': 100}",0.2830253933497946,1.1870226130699064
+1,True,True,df_bloq,kmeans,"{'n_clusters': 4, 'init': 'random', 'max_iter': 300}",0.2830253933497946,1.1870226130699064
+1,True,True,df_bloq,kmeans,"{'n_clusters': 4, 'init': 'random', 'max_iter': 500}",0.2830253933497946,1.1870226130699064
+1,True,True,df_bloq,kmeans,"{'n_clusters': 5, 'init': 'k-means++', 'max_iter': 100}",0.28578372392686946,1.0988811768042996
+1,True,True,df_bloq,kmeans,"{'n_clusters': 5, 'init': 'k-means++', 'max_iter': 300}",0.28578372392686946,1.0988811768042996
+1,True,True,df_bloq,kmeans,"{'n_clusters': 5, 'init': 'k-means++', 'max_iter': 500}",0.28578372392686946,1.0988811768042996
+1,True,True,df_bloq,kmeans,"{'n_clusters': 5, 'init': 'random', 'max_iter': 100}",0.2866896790899621,1.085551405601887
+1,True,True,df_bloq,kmeans,"{'n_clusters': 5, 'init': 'random', 'max_iter': 300}",0.2866896790899621,1.085551405601887
+1,True,True,df_bloq,kmeans,"{'n_clusters': 5, 'init': 'random', 'max_iter': 500}",0.2866896790899621,1.085551405601887
+1,True,True,df_bloq,kmeans,"{'n_clusters': 6, 'init': 'k-means++', 'max_iter': 100}",0.26769753300425114,1.1462693350670605
+1,True,True,df_bloq,kmeans,"{'n_clusters': 6, 'init': 'k-means++', 'max_iter': 300}",0.26769753300425114,1.1462693350670605
+1,True,True,df_bloq,kmeans,"{'n_clusters': 6, 'init': 'k-means++', 'max_iter': 500}",0.26769753300425114,1.1462693350670605
+1,True,True,df_bloq,kmeans,"{'n_clusters': 6, 'init': 'random', 'max_iter': 100}",0.29090218958723335,1.0831890981272536
+1,True,True,df_bloq,kmeans,"{'n_clusters': 6, 'init': 'random', 'max_iter': 300}",0.29090218958723335,1.0831890981272536
+1,True,True,df_bloq,kmeans,"{'n_clusters': 6, 'init': 'random', 'max_iter': 500}",0.29090218958723335,1.0831890981272536
+1,True,True,df_bloq,kmeans,"{'n_clusters': 7, 'init': 'k-means++', 'max_iter': 100}",0.2982041661814319,1.0640697144149107
+1,True,True,df_bloq,kmeans,"{'n_clusters': 7, 'init': 'k-means++', 'max_iter': 300}",0.2982041661814319,1.0640697144149107
+1,True,True,df_bloq,kmeans,"{'n_clusters': 7, 'init': 'k-means++', 'max_iter': 500}",0.2982041661814319,1.0640697144149107
+1,True,True,df_bloq,kmeans,"{'n_clusters': 7, 'init': 'random', 'max_iter': 100}",0.2981932116207856,1.0641612257200141
+1,True,True,df_bloq,kmeans,"{'n_clusters': 7, 'init': 'random', 'max_iter': 300}",0.2981932116207856,1.0641612257200141
+1,True,True,df_bloq,kmeans,"{'n_clusters': 7, 'init': 'random', 'max_iter': 500}",0.2981932116207856,1.0641612257200141
+1,True,True,df_bloq,kmeans,"{'n_clusters': 8, 'init': 'k-means++', 'max_iter': 100}",0.2883713935985858,1.09538920747282
+1,True,True,df_bloq,kmeans,"{'n_clusters': 8, 'init': 'k-means++', 'max_iter': 300}",0.2883713935985858,1.09538920747282
+1,True,True,df_bloq,kmeans,"{'n_clusters': 8, 'init': 'k-means++', 'max_iter': 500}",0.2883713935985858,1.09538920747282
+1,True,True,df_bloq,kmeans,"{'n_clusters': 8, 'init': 'random', 'max_iter': 100}",0.28117403317904976,1.1089167400686857
+1,True,True,df_bloq,kmeans,"{'n_clusters': 8, 'init': 'random', 'max_iter': 300}",0.28117403317904976,1.1089167400686857
+1,True,True,df_bloq,kmeans,"{'n_clusters': 8, 'init': 'random', 'max_iter': 500}",0.28117403317904976,1.1089167400686857
+1,True,True,df_bloq,kmeans,"{'n_clusters': 9, 'init': 'k-means++', 'max_iter': 100}",0.2780226053389952,1.1678163377761708
+1,True,True,df_bloq,kmeans,"{'n_clusters': 9, 'init': 'k-means++', 'max_iter': 300}",0.2780226053389952,1.1678163377761708
+1,True,True,df_bloq,kmeans,"{'n_clusters': 9, 'init': 'k-means++', 'max_iter': 500}",0.2780226053389952,1.1678163377761708
+1,True,True,df_bloq,kmeans,"{'n_clusters': 9, 'init': 'random', 'max_iter': 100}",0.2916382883827883,1.0673113498129818
+1,True,True,df_bloq,kmeans,"{'n_clusters': 9, 'init': 'random', 'max_iter': 300}",0.2916382883827883,1.0673113498129818
+1,True,True,df_bloq,kmeans,"{'n_clusters': 9, 'init': 'random', 'max_iter': 500}",0.2916382883827883,1.0673113498129818
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",0.978977017743634,1.279791083820071
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9662043895554066,1.2919891279561417
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9552807966893989,1.3237345835638907
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9445407110044991,1.3884730739422346
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9280462373776506,1.2724121265469208
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9136965522126099,1.2722097738229512
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9027857860554559,1.285305328775408
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.02), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.023571428571428573), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.027142857142857142), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.030714285714285715), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04688927323512813,1.6936362704484755
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.05012573683000766,1.7280994929324065
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.053733997657416405,1.7333413114385423
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03428571428571429), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03460201108887033,1.5358514470780888
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.03857559521325312,1.6313045297261193
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",-0.04058985871872087,1.6713623725700917
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",,
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",-0.04446299274677132,1.6901515705211503
+3,True,True,df_bloq_fe,dbscan,"{'eps': np.float64(0.03785714285714286), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",-0.04446299274677132,1.6901515705211503
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 2, 'init': 'k-means++', 'max_iter': 100}",0.33362417591352295,1.1844974125339742
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 2, 'init': 'k-means++', 'max_iter': 300}",0.33362417591352295,1.1844974125339742
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 2, 'init': 'k-means++', 'max_iter': 500}",0.33362417591352295,1.1844974125339742
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 2, 'init': 'random', 'max_iter': 100}",0.3336109979227839,1.1840206396294446
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 2, 'init': 'random', 'max_iter': 300}",0.3336109979227839,1.1840206396294446
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 2, 'init': 'random', 'max_iter': 500}",0.3336109979227839,1.1840206396294446
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 3, 'init': 'k-means++', 'max_iter': 100}",0.27539695142683024,1.3603557363689107
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 3, 'init': 'k-means++', 'max_iter': 300}",0.27539695142683024,1.3603557363689107
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 3, 'init': 'k-means++', 'max_iter': 500}",0.27539695142683024,1.3603557363689107
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 3, 'init': 'random', 'max_iter': 100}",0.29070580579275246,1.2612554751995908
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 3, 'init': 'random', 'max_iter': 300}",0.29070580579275246,1.2612554751995908
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 3, 'init': 'random', 'max_iter': 500}",0.29070580579275246,1.2612554751995908
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 4, 'init': 'k-means++', 'max_iter': 100}",0.27153707527226606,1.192197160656741
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 4, 'init': 'k-means++', 'max_iter': 300}",0.27153707527226606,1.192197160656741
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 4, 'init': 'k-means++', 'max_iter': 500}",0.27153707527226606,1.192197160656741
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 4, 'init': 'random', 'max_iter': 100}",0.26075006068359924,1.2154291499625
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 4, 'init': 'random', 'max_iter': 300}",0.26075006068359924,1.2154291499625
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 4, 'init': 'random', 'max_iter': 500}",0.26075006068359924,1.2154291499625
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 5, 'init': 'k-means++', 'max_iter': 100}",0.258808480612495,1.2125455851979008
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 5, 'init': 'k-means++', 'max_iter': 300}",0.258808480612495,1.2125455851979008
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 5, 'init': 'k-means++', 'max_iter': 500}",0.258808480612495,1.2125455851979008
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 5, 'init': 'random', 'max_iter': 100}",0.27701694078213723,1.052482069909529
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 5, 'init': 'random', 'max_iter': 300}",0.27701694078213723,1.052482069909529
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 5, 'init': 'random', 'max_iter': 500}",0.27701694078213723,1.052482069909529
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 6, 'init': 'k-means++', 'max_iter': 100}",0.27566271595367636,1.0848436662633858
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 6, 'init': 'k-means++', 'max_iter': 300}",0.27566271595367636,1.0848436662633858
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 6, 'init': 'k-means++', 'max_iter': 500}",0.27566271595367636,1.0848436662633858
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 6, 'init': 'random', 'max_iter': 100}",0.2730619235355483,1.0882097915372269
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 6, 'init': 'random', 'max_iter': 300}",0.2730619235355483,1.0882097915372269
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 6, 'init': 'random', 'max_iter': 500}",0.2730619235355483,1.0882097915372269
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 7, 'init': 'k-means++', 'max_iter': 100}",0.2712581265346349,1.0758238658660635
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 7, 'init': 'k-means++', 'max_iter': 300}",0.2712581265346349,1.0758238658660635
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 7, 'init': 'k-means++', 'max_iter': 500}",0.2712581265346349,1.0758238658660635
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 7, 'init': 'random', 'max_iter': 100}",0.27417348997147206,1.0734257913982745
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 7, 'init': 'random', 'max_iter': 300}",0.27417348997147206,1.0734257913982745
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 7, 'init': 'random', 'max_iter': 500}",0.27417348997147206,1.0734257913982745
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 8, 'init': 'k-means++', 'max_iter': 100}",0.2623322417496653,1.153000114670899
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 8, 'init': 'k-means++', 'max_iter': 300}",0.2623322417496653,1.153000114670899
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 8, 'init': 'k-means++', 'max_iter': 500}",0.2623322417496653,1.153000114670899
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 8, 'init': 'random', 'max_iter': 100}",0.2561301480480138,1.0746083657745307
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 8, 'init': 'random', 'max_iter': 300}",0.2561301480480138,1.0746083657745307
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 8, 'init': 'random', 'max_iter': 500}",0.2561301480480138,1.0746083657745307
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 9, 'init': 'k-means++', 'max_iter': 100}",0.24086121861123272,1.1622748774151948
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 9, 'init': 'k-means++', 'max_iter': 300}",0.24086121861123272,1.1622748774151948
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 9, 'init': 'k-means++', 'max_iter': 500}",0.24086121861123272,1.1622748774151948
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 9, 'init': 'random', 'max_iter': 100}",0.26061939264415296,1.1104440960944966
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 9, 'init': 'random', 'max_iter': 300}",0.26061939264415296,1.1104440960944966
+4,True,True,df_bloq_fe,kmeans,"{'n_clusters': 9, 'init': 'random', 'max_iter': 500}",0.26061939264415296,1.1104440960944966
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",0.3399077709676403,0.8229993318918872
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",0.3399077709676403,0.8229993318918872
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",0.3423227916805141,0.8072420781864429
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",0.3423227916805141,0.8072420781864429
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",0.34236569926366484,0.7819411187478875
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",0.34236569926366484,0.7819411187478875
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",0.34187217487771343,0.7374309334595639
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",0.34187217487771343,0.7374309334595639
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",0.34194068397534616,0.742418362298586
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",0.34194068397534616,0.742418362298586
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",0.3418021161791634,0.7344334114733635
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",0.3418021161791634,0.7344334114733635
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",0.3430339235684462,0.8252315906929582
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.005), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",0.3430339235684462,0.8252315906929582
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",0.3705791025242642,0.9081337460485348
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",0.3705791025242642,0.9081337460485348
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",0.3738179734891414,0.8115410854065405
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",0.3738179734891414,0.8115410854065405
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",0.3738179734891414,0.8115410854065405
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",0.3738179734891414,0.8115410854065405
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",0.37403956078116,0.800624262377847
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",0.37403956078116,0.800624262377847
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",0.37403956078116,0.800624262377847
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",0.37403956078116,0.800624262377847
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",0.3738173780965254,0.7662302350745787
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",0.3738173780965254,0.7662302350745787
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",0.3738173780965254,0.7662302350745787
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.006071428571428571), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",0.3738173780965254,0.7662302350745787
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9526273999857338,1.386858003388401
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'auto'}",0.3687548181993876,0.9613945414203962
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 3, 'metric': 'cosine', 'algorithm': 'brute'}",0.3687548181993876,0.9613945414203962
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9344633994788945,1.3844552051190475
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'auto'}",0.37319155185430397,0.74462576032954
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 4, 'metric': 'cosine', 'algorithm': 'brute'}",0.37319155185430397,0.74462576032954
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9187133137999552,1.393748347173302
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'auto'}",0.3735341201611364,0.7704262624394593
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 5, 'metric': 'cosine', 'algorithm': 'brute'}",0.3735341201611364,0.7704262624394593
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'auto'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'euclidean', 'algorithm': 'brute'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'auto'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'manhattan', 'algorithm': 'brute'}",0.9046940122188929,1.3898682951003976
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'auto'}",0.3735341201611364,0.7704262624394593
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 6, 'metric': 'cosine', 'algorithm': 'brute'}",0.3735341201611364,0.7704262624394593
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8855639009016361,1.3598388044822611
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'auto'}",0.3739761241419772,0.7601959817627505
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 7, 'metric': 'cosine', 'algorithm': 'brute'}",0.3739761241419772,0.7601959817627505
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8687536465505272,1.393057492612578
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'auto'}",0.3738844892339767,0.7724531315906079
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 8, 'metric': 'cosine', 'algorithm': 'brute'}",0.3738844892339767,0.7724531315906079
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'auto'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'ball_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'kd_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'euclidean', 'algorithm': 'brute'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'auto'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'manhattan', 'algorithm': 'brute'}",0.8563661909274639,1.4160814767491108
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'auto'}",0.3742729799713655,0.8052716487276228
+6,True,False,df_bloq,dbscan,"{'eps': np.float64(0.0071428571428571435), 'min_samples': 9, 'metric': 'cosine', 'algorithm': 'brute'}",0.3742729799713655,0.8052716487276228
